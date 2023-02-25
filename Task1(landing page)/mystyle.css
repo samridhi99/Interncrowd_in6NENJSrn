@@ -1,0 +1,250 @@
+
+.top{
+    background-color:rgb(245, 244, 244)/*rgba(231, 233, 238, 0)*/;
+    /*padding-bottom:1000px;*/
+    /*margin-left:200px ;
+    margin-right: 200px;*/
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    
+
+}
+/*navigation*/
+.nav-link{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: rgb(36, 33, 44);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    text-align: right;
+    
+
+}
+.a-style{
+    color:rgb(233, 228, 228);
+    font-weight:bolder;
+    font-size: larger;
+    text-decoration: 0;
+    padding-right: 20px;
+}
+.a-style:hover{
+    color:rgb(245, 239, 239);
+    
+}
+
+.heading{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 25px;
+    margin-left:200px ;
+    margin-right: 200px;
+    
+
+}
+.intro{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.symbol{
+    margin-top: 100px;
+    
+}
+.symbpic{
+    width:60px;
+    border: radius 100px;
+
+}
+.name{
+    margin-bottom: 0;
+    color: rgb(0, 0, 0);
+
+    
+}
+.about{
+    
+    margin-top: 0;
+}
+.start{
+    background-color:rgb(252, 255, 255) ;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: bold;
+    cursor:pointer;
+    width:200px;
+    transition-delay:0.15s ;
+    
+}
+.start:hover{
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+}
+
+.image2{
+    border-color: rgb(255, 254, 254); 
+    
+}
+
+/*services provided*/
+.services{
+    display: flex;
+    flex-direction: row;
+    margin-left:200px ;
+    margin-right: 200px;
+    
+}
+.select{
+    flex:1;
+    border:1px solid rgb(0, 0, 0);
+    box-shadow: 6px 6px rgb(244, 178, 149);
+    background-color:rgb(194, 230, 222);
+    color:rgb(2, 2, 2);
+    text-align: center;
+    cursor: pointer;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius:10px;
+    transition-delay:0.15s ;
+    
+
+}
+.select h4{
+    color:rgb(0, 0, 0)/* rgba(7, 7, 7, 0.737)*/;
+   
+}
+.select:hover{
+    background-color:rgb(116, 255, 255);
+    color:rgb(0, 0, 0)/* rgb(215, 216, 218)*/;
+
+}
+.select h4:hover{
+    color: rgb(5, 0, 1)/*rgb(215, 216, 218)*/;
+}
+.logos{
+    margin-top: 20px;
+    border-radius: 55px;
+    width:100px
+}
+/*services provided*/
+/*faq-align*/
+.faq-align{
+    display: normal;
+    flex-direction: row;
+    
+    
+
+}
+/*faq*/
+.faq{
+    flex:1;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left:100px ;
+    margin-right: 100px;
+    
+    
+
+}
+.question{
+    flex:1;
+    border:1px solid rgba(204, 204, 204, 0.712);
+    text-align: center;
+    cursor: pointer;
+    justify-content: space-evenly;
+    background-color:rgba(188, 233, 218, 0.89)/*rgb(255, 244, 239)*/;
+    box-shadow: 6px 6px rgb(192, 172, 172);
+    padding-right:20px;
+    padding-left: 20px;
+    border-radius:8px;
+    margin-bottom:20px ;
+
+}
+.accordian-link{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    width: 100%;
+}
+.accordian-link h3{
+    background-color:rgba(189, 224, 220, 0.808)/*rgb(255, 244, 239)*/;
+    color:rgb(0, 0, 0);
+
+}
+
+.answer{
+    flex:1;
+    background-color:rgb(36, 33, 44)/*rgb(255, 244, 239)*/;
+    color:rgb(221, 166, 162);
+    text-align:center;
+    cursor: pointer;
+    justify-content: space-evenly;
+    padding-right:20px;
+    padding-left: 20px;
+    max-height: 0px;
+    overflow: hidden;
+    position: relative;
+    transition: max-height 650ms;
+    margin-bottom:15px;
+
+    
+}
+.question:target .answer{
+    max-height:65px;
+    
+}
+.end{
+    display:flex; 
+    margin-top: 30px;
+
+}
+.end1{
+    flex:1;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+}
+.end1 h1{
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    font-size:32px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.logo-decor{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.head-t{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    
+}
+/*insta linkden mail*/
+
+.iconn{
+    width:90px;
+    height: 90px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    color: rgb(0, 0, 0);
+    
+
+
+}
+footer {
+    background-color: #383641fa;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+  }
