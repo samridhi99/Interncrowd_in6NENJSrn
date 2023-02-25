@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--TITLE OF THE PAGE-->
+  <title>InternCrowd</title>
+  <link rel="stylesheet" href="Newlogin.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Login Page</header>
+    <!--FORM SECTION-->
+    <form action="#">
+
+      <!--EMAIL SECTION-->
+      <div class="field email">
+        <div class="input-area">
+          <input id="email" type="text" placeholder="Enter Email Address">
+          <i class="icon fas fa-envelope"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+
+        <!--EMAIL ERROR-->
+        <div class="error error-txt">Email is required</div>
+      </div>
+
+      <!--PASSWORD SECTION-->
+      <div class="field password">
+        <div class="input-area">
+          <input id="password" type="password" placeholder="Enter Password">
+          <i class="icon fas fa-lock"></i>
+          <i class="error error-icon fas fa-exclamation-circle"></i>
+        </div>
+
+        <!--PASSWORD ERRORS-->
+        <div class="error error-txt">Password is required<br>
+          <ul>
+            <li>Minimum password length is 8</li>
+            <li>Require at least one lowercase letter</li>
+            <li>Require at least one uppercase letter</li>
+            <li>Require at least two number</li>
+            <li>Require at least one special character</li>
+          </ul>
+        </div>
+      </div>
+
+      <!--FORGOT PASSWORD SECTION-->
+      <div class="pass-txt"><a href="">Forgot password?</a></div>
+      <input type="submit" value="Login" onclick="login()">
+    </form>
+
+    <!--NEW ACCOUNT SECTION-->
+    <div class="sign-txt">No Account? <a href=" ">Create your Account</a></div>
+</body>
+</html>
